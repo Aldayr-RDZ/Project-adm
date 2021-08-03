@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
