@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "project-adm"
+  "defaultProject": "project-adm",
+  "cli": {
+    "analytics": false
+  }
 }
