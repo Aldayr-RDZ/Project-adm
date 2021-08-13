@@ -3,9 +3,20 @@
     box-sizing: border-box;  
 }
 
-.container-all{
+
+.texto{
     width: 100%;
-    max-width: 1000px;
+    max-width: 700px;
     margin-left: 20px;
     margin-bottom: 20px;
+    float: left;
+}
+
+  .hey .active a,
+.hey .active a:hover {
+    background-color: black;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+    background-color: red;
 }
