@@ -1,7 +1,7 @@
-<div style="width: 80%; margin-left: 10%; margin-right: 10%; background-color: beige; margin-top: 30px;">
+<div style="width: 75%; margin-left: auto; margin-right: auto; background-color: #f2f2f2; margin-top: 30px; margin-bottom: 30px;">
   <nav>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-      <button
+    <div class="nav nav-tabs white active" id="nav-tab" role="tablist">
+      <button 
         class="nav-link active"
         id="nav-cayaco-tab"
         data-bs-toggle="tab"
@@ -10,9 +10,9 @@
         role="tab"
         aria-controls="nav-cayaco"
         aria-selected="true"
-      >
+        style="background-color: #f2f2f2"> 
         Cayaco
-      </button>
+      </button>     
       <button
         class="nav-link"
         id="nav-marabasco-tab"
@@ -22,7 +22,7 @@
         role="tab"
         aria-controls="nav-marabasco"
         aria-selected="false"
-      >
+        style="background-color: #f2f2f2">
         Marabasco
       </button>
       <button
@@ -34,7 +34,8 @@
         role="tab"
         aria-controls="nav-piedralisa"
         aria-selected="false"
-      >
+        style="background-color: #f2f2f2 "
+       >
         Piedralisa
       </button>
       <button
@@ -46,48 +47,49 @@
         role="tab"
         aria-controls="nav-riodelumbre"
         aria-selected="false"
-      >
+        style="background-color: #f2f2f2 "
+        >
         Rio de lumbre
       </button>
     </div>
   </nav>
 
-  <div class="tab-content" id="nav-tabContent">
+  <div  class="tab-content " id="nav-tabContent">
     <div
       class="tab-pane fade show active"
       id="nav-cayaco"
       role="tabpanel"
       aria-labelledby="nav-cayaco-tab"
     >
-      <div class="container-all">
-        <h5>
-          The first best beer in the world. Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit. Excepturi nemo, explicabo delectus
-          dolore necessitatibus sunt, laudantium quas quam cum ea veritatis
-          beatae sit consectetur. Nemo vel laborum placeat repellat
-          voluptatibus?
-        </h5>
-        <img src="assets/cayaco.jpg" height="200px" width="200px" />
-        <app-bottom></app-bottom>
+      <div class="texto">
+          <h5> 
+            The first best beer in the world. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Excepturi nemo, explicabo delectus
+            dolore necessitatibus sunt, laudantium quas quam cum ea veritatis
+            beatae sit consectetur. Nemo vel laborum placeat repellat
+            voluptatibus?
+          </h5>
       </div>
+      <app-bottom></app-bottom>
+      <div align="right"><img src="assets/cayaco.jpg" height="200px" width="200px"/></div>
     </div>
 
     <div
-      class="tab-pane fade"
-      id="nav-marabasco"
-      role="tabpanel"
-      aria-labelledby="nav-marabasco-tab"
-    >
-      <div class="container-all">
-        <h5>
-          The second best beer in the world. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Adipisci, corrupti atque voluptates
-          nobis ullam provident similique molestias officiis ab facere neque ut
-          laboriosam soluta alias dolorem porro officia doloremque itaque?
-        </h5>
-        <img src="assets/marabasco.jpg" height="200px" width="200px" />
+        class="tab-pane fade"
+        id="nav-marabasco"
+        role="tabpanel"
+        aria-labelledby="nav-marabasco-tab"
+      >
+        <div class="texto">
+          <h5>
+            The second best beer in the world. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Adipisci, corrupti atque voluptates
+            nobis ullam provident similique molestias officiis ab facere neque ut
+            laboriosam soluta alias dolorem porro officia doloremque itaque?
+          </h5>
+        </div>
         <app-bottom></app-bottom>
-      </div>
+        <div align="right"><img src="assets/marabasco.jpg" height="200px" width="200px" /></div> 
     </div>
 
     <div
@@ -96,16 +98,16 @@
       role="tabpanel"
       aria-labelledby="nav-piedralisa-tab"
     >
-      <div class="container-all">
+      <div class="texto">
         <h5>
           The third best beer in the world. Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Earum repellat eveniet quisquam?
           Laborum, natus, atque, ducimus nam incidunt ex itaque distinctio iure
           quam ea quibusdam officia voluptas harum cumque est.
         </h5>
-        <img src="assets/piedralisa.jpg" height="200px" width="200px" />
-        <app-bottom></app-bottom>
       </div>
+      <app-bottom></app-bottom>
+      <div align="right"><img src="assets/piedralisa.jpg" height="200px" width="200px" /></div> 
     </div>
 
     <div
@@ -114,16 +116,19 @@
       role="tabpanel"
       aria-labelledby="nav-riodelumbre-tab"
     >
-      <div class="container-all">
+      <div class="texto">
         <h5>
           The fourth best beer in the world. Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Nobis veniam autem aperiam ut, quasi
           corporis vel officia nulla. Blanditiis natus, reprehenderit explicabo
           veritatis fuga id mollitia tempora tenetur rem quia!
         </h5>
-        <img src="assets/riodelumbre.jpg" height="200px" width="200px" />
-        <app-bottom></app-bottom>
       </div>
+        <app-bottom></app-bottom>
+        <div align="right"><img src="assets/riodelumbre.jpg" height="200px" width="200px" /></div>
     </div>
+
   </div>
+
+
 </div>
